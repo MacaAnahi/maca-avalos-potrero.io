@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333439;
+    font-family: 'Barlow', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: radial-gradient(circle, #333439, #5d4d5d, #93656d, #be866c, #c9b470);
+}
+
+a {
+    color: inherit;
+}
+ 
+
+.carousel1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.col-centered {
+    float: none;
+    margin: 0 auto;
+ }
+
+.header, .main, .footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    padding: 1rem;
+
+    }
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__titulo {
+    text-transform: uppercase ;
+    text-align: center;
+}
+
+.header__descripcion {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
+.h5 {
+    background-color: #333439;
+}
+.enlace {
+    color: #be866c;
+    text-transform: uppercase;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+
+.marquise {
+    color: #333439;
+ }
+
+ .footer, .logofooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem
+}
+
+.footer__cta { 
+    color: #be866c;
+}
+ .logofooter {
+    padding: 0.3rem
+ }
+ .footer {
+    text-align: center;
+    padding: 2rem
+}
+
+
